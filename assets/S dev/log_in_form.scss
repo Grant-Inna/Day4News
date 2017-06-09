@@ -3,7 +3,7 @@
   width: 100%;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
-  margin: 5rem auto;
+  margin: 3rem auto;
 }
 
 @media screen and (min-width: 40em) {
@@ -21,6 +21,8 @@
 .borderBottom {
   border-bottom: 1px solid #ececec;
   text-align: center;
+  margin-top: 10px;
+  padding-bottom: 5px;
 }
 
   h4 {
@@ -98,6 +100,15 @@
     background-color: #3adb76;
     color: #fff;
   }
+  .alert {
+    margin-bottom: 0;
+    padding: 10px;
+    border-radius: 2px;
+  }
+.alert h4 {
+  margin: 0;
+}
+
 
 @media screen and (max-width: 350px) {
   [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {

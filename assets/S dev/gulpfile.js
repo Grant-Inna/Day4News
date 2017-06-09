@@ -46,6 +46,7 @@ gulp.task('watch_scss', function() {
     gulp.watch('./_variables.scss', ['css']);
     gulp.watch('./responsive.scss', ['responsive.css']);
     gulp.watch('./bootstrap.min.scss', ['bootstrap.css']);
+    gulp.watch('./log_in_form.scss', ['bootstrap.css']);
 });
 gulp.task('watch_min', function() {
     gulp.watch('./style.scss', ['MINcss'])
