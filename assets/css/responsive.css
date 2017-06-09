@@ -1,0 +1,352 @@
+@media (min-width: 540px) {
+  .col-md-10 {
+    width: 90%; }
+  .col-md-1 {
+    width: 5%; } }
+
+@media (min-width: 1320px) {
+  .social-count {
+    font-size: 14px; }
+  .entry-post p {
+    font-size: 14px; } }
+
+@media (min-width: 768px) {
+  .col-md-10 {
+    width: 70%; }
+  .col-md-1 {
+    width: 15%; } }
+
+@media (min-width: 1800px) {
+  .col-md-10 {
+    width: 50%; }
+  .col-md-1 {
+    width: 25%; } }
+
+@media (max-width: 1320px) {
+  .header {
+    height: auto !important;
+    padding: 0; }
+  .logo {
+    height: auto !important;
+    float: none !important;
+    text-align: center !important;
+    padding: 0 !important; }
+  .head-banner {
+    display: block !important;
+    text-align: center !important;
+    float: none !important;
+    padding: 0 15px 25px !important;
+    height: auto !important; }
+  .head-banner img {
+    width: 100%;
+    max-width: 728px; }
+  .about-detail p {
+    width: 100%;
+    display: block;
+    margin-top: 15px; }
+  .about-detail img {
+    width: 100%;
+    display: block; } }
+
+@media all and (max-width: 1000px) {
+  .top-row-content {
+    width: 100%;
+    float: left; }
+  .bottom-content h2 {
+    font-size: 1.6em;
+    margin-bottom: 1px; }
+  .top-cat, .bottom-cat {
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    font-size: 13px; }
+  .bottom-row-content {
+    width: 33.3%;
+    float: left; }
+  .box {
+    width: 33.33333%;
+    float: left; }
+  .box h2 {
+    font-size: 1.2em; } }
+
+@media all and (max-width: 1025px) {
+  .top-cat, .bottom-cat {
+    opacity: 1;
+    left: 0; } }
+
+@media all and (max-width: 768px) {
+  .navigation {
+    padding: 5px 1em; }
+  nav {
+    margin: 0;
+    background-color: #262626;
+    padding: 0; }
+  nav a {
+    color: #ddd;
+    font-size: 11px;
+    line-height: 40px; }
+  nav ul li {
+    background-color: #262626; }
+  .toggle + a, .menu {
+    display: none; }
+  .toggle {
+    display: block;
+    padding: 0 20px;
+    color: #ddd;
+    font-size: 11px;
+    line-height: 40px;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 0px;
+    font-weight: 500; }
+  .child:hover {
+    border-left: 2px solid #ef5764; }
+  .toggle:hover {
+    color: #fff; }
+  [id^=drop]:checked + ul {
+    display: block;
+    width: 100%;
+    text-align: center; }
+  nav ul li {
+    display: block;
+    width: 100%; }
+  nav ul ul .toggle, nav ul ul a {
+    padding: 0 40px; }
+  nav ul ul ul a {
+    padding: 0 80px; }
+  nav a:hover {
+    border-left: 2px solid #ef5764; }
+  nav a:hover, nav ul ul ul a {
+    background-color: #262626;
+    color: #fff;
+    text-decoration: none; }
+  nav ul ul {
+    float: none;
+    position: static;
+    color: #ddd; }
+  nav ul ul li:hover > ul, nav ul li:hover > ul {
+    display: none; }
+  nav ul ul li {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #212121; }
+  nav ul ul ul li {
+    position: static;
+    border-top: 1px solid #212121; }
+  .news {
+    margin: 0px auto; }
+  .news-ticker {
+    padding: 3px 1em; }
+  .news .mobile-ticker {
+    display: block;
+    background-color: #F43D2A;
+    height: 30px;
+    float: left;
+    color: #fff;
+    padding: 6px;
+    position: relative;
+    text-transform: uppercase;
+    font: 1.3em;
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+    cursor: pointer; }
+  .news span {
+    display: none; }
+  .news ul {
+    float: right; }
+  .news ul li {
+    text-align: right;
+    padding-right: 2px; }
+  .top-content, .bottom-content {
+    padding: 5px; }
+  .top-content h2, .bottom-content h2 {
+    font-size: 1.6em;
+    margin-bottom: 1px; }
+  .top-cat, .bottom-cat {
+    opacity: 1;
+    left: 0; }
+  .top-meta, .bottom-meta {
+    float: left;
+    bottom: 3px; }
+  .top-meta a, .bottom-meta a {
+    font-size: 9px; }
+  .recent-post-item .recent-post-content h3 {
+    font-size: 14px;
+    font-weight: 500; }
+  .bottom-row-content {
+    width: 100%; }
+  .bottom-widget h3 {
+    font-size: 15px; }
+  .about-us span {
+    font-size: 12px; }
+  .tags a li {
+    font-size: 12px; }
+  .in-line {
+    width: 50%;
+    float: left; }
+  .col-md-10 {
+    border-top: 2px solid #ef5764; }
+  .about-main .about-main-image {
+    width: 100%;
+    padding: 0;
+    display: block;
+    margin-right: 0; }
+  .about-main .about-main-description {
+    width: 100%;
+    display: block; }
+  .about-main .about-main-description h3 {
+    font-size: 22px;
+    margin: 20px 0; }
+  .author-posts-item {
+    width: 48%; }
+  .block-overlay-item {
+    width: 100%; }
+  .post p {
+    min-height: 35px; } }
+
+@media all and (max-width: 480px) {
+  .logo {
+    height: auto !important;
+    float: none !important;
+    text-align: center !important;
+    padding: 10px 0 !important; }
+  .logo h1 {
+    line-height: normal !important; }
+  .head-banner {
+    display: block !important;
+    text-align: center !important;
+    float: none !important;
+    padding: 0 13px 5px !important;
+    height: auto !important; }
+  .entry-img {
+    width: 100% !important; }
+  .entry-img img {
+    height: 175px; }
+  .entry-post {
+    float: left !important;
+    width: 100% !important;
+    margin-top: 10px; }
+  .recent-post-item .recent-post-content h3 {
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis; }
+  .tags a li {
+    padding: 3px 10px;
+    font-size: 12px; }
+  .entry-post h2 {
+    font-size: 16px; }
+  .box {
+    width: 100%;
+    float: none !important;
+    height: auto;
+    border-bottom: 1px solid #ddd; }
+  .box h2 {
+    font-size: 1.4em;
+    font-weight: 700; }
+  .social-item {
+    width: 20%;
+    padding: 10px 0; }
+  .social-count {
+    font-size: 12px; }
+  .social-title {
+    font-size: 10px; }
+  .top-content h2, .bottom-content h2 {
+    font-size: 1.2em; }
+  .top-meta, .bottom-meta {
+    display: none; }
+  .author-detail {
+    width: 100%;
+    display: block; }
+  .author-photo {
+    width: 100%;
+    display: block; }
+  .author-bio {
+    width: 100%;
+    display: block;
+    vertical-align: none; }
+  .author-bio h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    padding: 0;
+    text-align: center; }
+  .about-image, .left-text, .right-text {
+    width: 100%;
+    display: block;
+    padding: 0; }
+  .stats {
+    padding: 10px 0;
+    display: block;
+    width: 100%; }
+  .author-posts-item {
+    width: 100%;
+    display: block; }
+  .author-posts-content h2 a {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px; }
+  .found-item-thumb {
+    width: 99%; }
+  .found-item-content {
+    width: 100%; }
+  .found-item .tag {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    padding: 0 10px;
+    z-index: 1;
+    border-radius: 5px; }
+  .found-item .tag a {
+    display: block; }
+  .search-result h1, .category-page h1 {
+    font-size: 18px; }
+  .not-found form .keyword {
+    width: 80%; }
+  .not-found form button {
+    width: 18%;
+    padding: 0px 10px; }
+  .category-item-thumb {
+    width: 100%;
+    display: block;
+    margin: 0; }
+  .category-item-content {
+    width: 100%;
+    display: block;
+    margin: 0; }
+  .found-item-content h2 a, .not-found h2, .category-item-content h2 a {
+    font-size: 20px; }
+  .single-wrapper h1 {
+    font-size: 25px;
+    line-height: 30px; }
+  .post-breadcrumb {
+    font-size: 12px; }
+  .meta1 img {
+    display: block;
+    margin: 0 auto; }
+  .meta-data-share {
+    margin: 0 auto;
+    float: none; }
+  .meta-data, .meta-data-date {
+    font-size: 11px; }
+  .meta-data-share h4 {
+    display: none; }
+  .comment-thumb {
+    padding: 0px; }
+  footer .designer, footer .copyright {
+    float: none !important;
+    text-align: center;
+    font-size: 11px; }
+  .post-meta {
+    text-align: center; } }
+
+@media all and (max-width: 330px) {
+  nav ul li {
+    display: block;
+    width: 100%; }
+  .news ul li a {
+    font-size: 0.9em; }
+  .about-author .item {
+    width: 100%;
+    display: inline; } }

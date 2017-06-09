@@ -1,0 +1,700 @@
+/*------------------------------------------------------------------
+[TYPOGRAPHY Table of contents]
+
+1. Body / body
+2. Header / .page-header
+	2.1 Logo / .logo
+	2.2 468x90 Banner Ads / .head-banner
+3. Navigation / .navigation
+4. News Ticker / .news
+5. Top Headline / .top-row-content & .bottom-row-content
+6. Tag Stripe / .tag
+7. Post 
+	7.1 Post Category Boxed Style / .post
+	7.2 Block Overlay Style / .block-overlay
+	7.3 Post Blog Style / .entry
+8. Sidebar / .sidebar
+	8.1 SOCIAL NETWORK / .social-network
+	8.2 300X250 ADS / .ads300
+	8.3 RECENT POSTS / .side
+9. Bottom Widget / .bottom-widget
+	9.1 About Us / .about-us
+	9.2 Social Media / .socmed
+	9.3 Tags / .tags
+	9.4 Form / form
+10. Footer / footer
+11. 404 Error Page / 404.html / .error-page
+12. Contact Us Page / contact-us.html / .contact
+13. About Us Page / about(n).html / .about1 & .about2
+	13.1 About Us Service / .service
+	13.2 About Us Author / .about-author
+	13.3 About Us Author Social / .author-social
+	13.4 About Us Stats / .stats
+14. Author Details Page / author-detail.html / .author-detail
+15. Search Result Page / search(n).html /.search-result
+	15.1 Search Result Found /.found-item
+	15.2 Search Result Not Found / .not-found
+16. Category Page / .category-item
+17. Single Post Page / .single-wrapper
+-------------------------------------------------------------------*/
+
+
+
+
+
+/*--- [1. Body / body] ---*/
+body{
+	color: #333;
+	font-size: 12px;
+	font-family: "Yantramanav",sans-serif;
+}
+/*--- [2. Header / .page-header] ---*/
+/*---[3. Navigation / nav]---*/
+nav{
+	font-size: 14px;
+}		
+	nav a{
+		color: #212121;
+		line-height: 50px;
+	}
+		nav a:hover{ 
+			color: #c8c8c8;
+		}
+	nav ul ul li{		
+		font-size: 13px;
+	}
+/*---[4. News Ticker / .news]---*/
+.news span {
+	font-size: 12px;
+}
+	.news ul li a {
+		color: #212121;
+		font-size: 1em;
+	}
+		.news ul li a:hover {
+			color: #ef5764;
+		}
+/*---[5. Headline / .top-row-content & .bottom-row-content]---*/
+.bottom-cat,
+.top-cat {
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 5px;
+	font-size: 15px
+}
+	.top-content h2 {
+		color: #fff;
+		font-size: 1.9em;
+		font-weight: 700;
+	}
+	.bottom-meta a,
+	.top-meta a {
+		font-weight: 500;
+		text-transform: none;
+		color: #fff;
+		letter-spacing: 1.4px;
+		font-size: 12px;
+	}
+		.bottom-meta a:hover,
+		.top-meta a:hover {
+			color: rgba(255, 255, 255, .55);
+		}	
+	.bottom-content h2 {
+		color: #fff;
+		font-size: 1.7em;
+		font-weight: 700;
+	}			
+/*---[6. Tag Stripe / .tag]---*/
+.tag h4{
+	font-size: 18px;
+	line-height: 1.5em;
+}
+	.tag a h4{
+		color:#333;
+	}
+		.tag a h4:hover{
+			color:#565656;
+		}
+/*---[7.1 Post Category Boxed Style / .post]---*/
+	.post h2{
+		font-size: 20px;
+		font-weight: 700;
+		color: #333;
+	}
+	.post h2 a{
+		color:#333;
+	}
+		.post h2 a:hover{
+			color:#ef5764;
+		}
+	.post p{
+		font-size: 14px;
+		text-align: left;
+		color: #666;
+	}
+	.post .date{
+		color: #7a7a7a;
+		font-size: 10px;
+		line-height: 18px;
+	}
+	.post p .readmore{
+		color: #fff;
+		font-weight: normal;
+	}	
+		.post p .readmore:hover{
+			color: #fff;
+		}	
+				.post .post-older .post-older-item .post-older-content h3{
+					font-size: 16px;
+					font-weight: 500;
+				}
+				.post .post-older .post-older-item .post-older-content h3 a{
+					color:#212121;
+				}
+				.post .post-older .post-older-item .post-older-content h3 a:hover{
+					color:#ef5764;
+				}				
+				.post .post-older .post-older-item .post-older-content p{
+					color: #7a7a7a;
+					font-size: 10px;
+				}	
+/*---[7.2 Block Overlay Style / .block-overlay]---*/
+		.block-overlay-thumbnail .block-overlay-data h2{
+			font-size:20px;
+			margin:0 0 15px;
+			text-align: center;
+		}		
+			.block-overlay-thumbnail .block-overlay-data h2 a{
+				color:#fff;
+				font-weight:700;
+			}
+				.block-overlay-thumbnail .block-overlay-data h2 a:hover{
+					text-decoration:none;
+					color:#ef5764;
+				}
+			.date-overlay-item{
+				margin-top: 0;
+				display: block;
+				color: #7a7a7a;
+				font-size: 10px;
+				line-height: 18px;
+				text-align: center;
+			}
+	.block-overlay-content{
+		margin: 15px 0;
+		overflow: hidden;
+		max-height: 60px;
+	}
+		.block-overlay-content p{
+			font-size: 14px;
+			line-height: 20px;
+			color: #666;
+		}
+	.block-overlay-readmore{
+		padding:5px 10px;
+		border:1px solid #ddd;
+		display: inline-block;
+		color:#333;
+		background:#fff;
+		font-size:14px;
+	}
+	.block-overlay-readmore:hover{
+		text-decoration:none;
+		color:#fff;
+		background:#ef5764;
+	}		
+/*---[7.3 Post Blog Style / .entry]---*/
+		.entry .entry-img .entry-cat{
+			color: #fff;
+			font-size: 14px;
+			font-weight: 700;
+		}		
+		.entry .entry-post h2{
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 24px;
+		}
+			.entry .entry-post h2 a{
+				color: #212121;
+			}
+				.entry .entry-post h2 a:hover{
+					color:#ef5764;
+				}	
+		.entry .entry-post p{
+			font-size: 14px;
+			text-align: left;
+			color: #666;
+		}
+		.entry .entry-post .entry-date{
+			color: #7a7a7a;
+			font-size: 10px;
+		}
+/*---[8. Sidebar / .sidebar]---*/		
+/*---[8.1 SOCIAL NETWORK / .social-network]---*/
+				.sidebar .widget .social-network .social-item a{
+					color:#fff;	
+				}
+					.sidebar .widget .social-network .social-item a .social-icon{
+						text-align: center;
+						color: #fff;
+						font-size: 18px;
+					}
+					.sidebar .widget .social-network .social-item a .social-count,
+					.sidebar .widget .social-network .social-item a .social-title{
+						font-weight: 500;
+						text-transform: initial;
+					}
+					.sidebar .widget .social-network .social-item a .social-count{
+						color: #5f5f5f;
+						line-height: 16px;
+						font-size: 13px;
+					}
+					.sidebar .widget .social-network .social-item a .social-title{
+						color: #9d9d9d;
+						font-size: 11px;
+					}
+/*---[8.2 300X250 ADS / .ads300]---*/						
+/*---[8.3 RECENT POSTS / .side]---*/					
+.recent-post-item .recent-post-content h3{
+	font-size: 16px;
+	margin: 0 0 5px;
+	line-height: 20px;
+	font-weight: 700;
+}
+	.recent-post-item .recent-post-content h3 a{
+		color:#333;
+	}
+		.recent-post-item .recent-post-content h3 a:hover{
+			color:#ef5764;
+			text-decoration:none;
+		}
+		.recent-post-item .recent-post-thumb .category a{
+			color: #fff;
+			font-weight: 700;
+			font-size: .8em;
+		}		
+	.recent-post-item .recent-post-content .date-sidebar{
+		color: #7a7a7a;
+		font-size:10px;
+	}	
+/*---[9. Bottom Widget / .bottom-widget]---*/
+.bottom-widget{
+	color:#c4c4c4;
+}
+	.bottom-widget h3{
+		margin:10px 0 5px;
+		font-size: 18px;
+	}
+/*---[9.1 About Us / .about-us]---*/	
+		.bottom-widget .about-us li{
+			color:#ef5764;
+			font-size:14px;
+		}
+			.bottom-widget .about-us li span{
+				font-size:14px;
+				color:#c4c4c4;
+			}
+/*---[9.2 Social Media / .socmed]---*/	
+			.socmed > li > a{
+				color:#c4c4c4;
+				font-size:16px;
+			}
+				.socmed > li > a:hover{
+					color:#ef5764;
+				}
+/*---[9.3 Tags / .tags]---*/			
+			.bottom-widget .tags li a{
+				font-size:14px;
+				color:#c4c4c4;
+			}
+				.bottom-widget .tags li a:hover{
+					color:#fff;
+					text-decoration:none;
+				}
+/*---[9.4 Form / form]---*/	
+	.bottom-widget form .evelope-icon{
+		font-size: 14px;
+		font-weight: normal;
+		color: #555;
+		text-align: center;
+	}
+	.bottom-widget form .email{
+		font-size: 14px;
+		color: #555;
+	}
+	.bottom-widget form .submit{
+		text-align: center;
+		font-size:14px;
+		color:#c4c4c4;
+	}
+		.bottom-widget form .submit:hover{
+			color:#fff;
+		}
+/*---[10. Footer / footer]---*/
+
+	footer .designer{
+		color:#c4c4c4;
+	}
+		footer .designer a{
+			color:#c4c4c4;
+		}
+			footer .designer a:hover{
+				color:#ef5764;
+			}
+/*---[11. 404 Error Page / 404.html / .error-page]---*/
+.error-page h1{
+	font-size:120px;
+	text-align:center;
+	color:#333;
+	letter-spacing: 10px;
+}
+.error-page .error-content{
+	font-size:18px;
+	text-align:center;
+	color:#333;
+}
+.error-page .error-text{
+	font-size: 14px;
+	text-align: center;
+	color:#7a7a7a;
+	font-weight:500;
+}
+.error-page .back-home{
+	text-align:center;
+	font-size:15px;
+	color:#333;
+}
+	.error-page .back-home:hover{
+	  color:#fff;
+	}
+/*---[12. Contact Us Page / contact-us.html / .contact]---*/
+.contact h1{
+	font-size: 30px;
+	text-align:center;
+	color:#333;
+}
+	.contact-form ul li > label,.reply-form ul li > label{
+		text-align:center;
+		color: #636363;
+		font-size: 14px;
+	}
+	.contact-form input,.reply-form input{
+		font-size: 14px;
+	}
+	.contact-form textarea,.reply-form textarea{
+		font-size: 16px;
+	}
+	.contact-form .submit,.reply-form .submit{
+		text-align:center;
+		font-size:16px;
+		color:#333;
+		font-weight:500;
+		letter-spacing:2px;
+		text-transform:uppercase;
+	}
+		.contact-form .submit:hover,.reply-form .submit:hover{
+			color:#fff;
+		}
+/*---[13. About Us Page / about(n).html / .about1 & .about2]---*/
+	.about-header h1{
+		color: #333;
+		font-size: 35px;
+		padding: 0;
+		margin: 0 0 15px;
+		font-weight:400;
+	}
+	.about-header .header-description{
+		color: #7a7a7a;
+		font-size: 12px;
+		padding: 0;
+		margin: 0 0 15px;
+		border-bottom: 1px solid #7a7a7a;
+	}
+		.about-main .about-main-description h3{
+			font-size:22px;
+			margin:0 0 10px;
+		}
+		.about-main .about-main-description p{
+			font-size:14px;
+			line-height:28px;
+			color:#666;	
+		}		
+
+			.about-main .about-main-description p a{
+				color:#ef5764;	
+			}
+				.about-main .about-main-description p a:hover{
+					color:#333;	
+					text-decoration:none;
+				}
+			.about-service .counter .counter-box .counter-number{
+				font-size: 70px;
+				font-weight: 700;
+				line-height: 100px;
+				color:#fff;
+			}
+			.about-service .counter .counter-box .counter-content{
+				font-size: 11px;
+				font-weight: 700;
+				color: #7a7a7a;
+				line-height: 15px;
+				text-transform: uppercase;
+				letter-spacing: 0.4em;
+			}				
+	.author-list-header h1{
+		color: #333;
+		font-size: 35px;
+		padding: 0;
+		margin: 0 0 15px;
+		font-weight:400;
+	}
+	.author-list-header .author-description{
+		color: #7a7a7a;
+		font-size: 12px;
+		padding: 0;
+		margin: 0 0 15px;
+		border-bottom: 1px solid #7a7a7a;
+	}				
+.author-info-box .author-info-name a{
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: #ef5764;
+	font-weight: 700;
+	text-transform:uppercase;
+}
+.author-info-box .author-info-name a:hover{
+	color:#333;
+	text-decoration:none;
+}
+.author-info-box .author-info-job{
+		color: #7a7a7a;
+		font-size: 12px;
+		padding: 0;
+		margin: 0 0 15px;
+		letter-spacing: 1.5px;
+}
+.author-info-box p{
+			font-size:14px;
+			line-height:28px;
+			color:#666;	
+}				
+/*---[14. Author Details Page / author-detail.html / .author-detail]---*/
+		.author-photo .total-posts{
+			font-size: 13px;
+			color: #adadad;
+		}
+	.author-bio h3{
+		font-size: 22px;
+		font-weight: 500;
+		letter-spacing: .6px;
+		line-height: 28px;
+		text-transform: uppercase;
+	}
+	.author-bio p{
+		color: #7a7a7a;
+		font-size: 14px;
+	}
+.author-posts{
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #333;
+}
+
+
+/*---[15. Search Result Page / search(n).html /.search-result]---*/
+.search-result h1,.category-page h1{
+	font-weight:600;
+	font-size:30px;
+}
+/*---[15.1 Search Result Found /.found-item]---*/
+.found-item .tag a{
+	color:#fff;
+	font-size:17px;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:600;
+}
+
+.text-green{
+	color:#30B47B;
+}
+.text-orange{
+	color:#ff2e00;;
+}
+.text-light-blue{
+	color:#00e6e9;;
+}
+.text-red{
+	color:#fc0101;;
+}
+.text-pink{
+	color:#fc0192;;
+}
+.found-item-content h2{
+	font-weight:700;
+	font-size:20px;
+	line-height: 24px;
+}
+.found-item-content h2 a{
+	color:#333;
+}
+.found-item-content h2 a:hover{
+	color:#ef5764;
+	text-decoration:none;
+}
+.found-item-content p{
+	font-size: 14px;
+	line-height: 20px;
+	color: #666;
+}
+.found-item-content .readmore{
+	font-size: 17px;
+	display:block;
+	text-align:right;
+}
+.found-item-content .readmore a{
+	color:#212121;
+}
+.found-item-content .readmore a:hover{
+	color:#ef5764;
+	text-decoration:none;
+}
+/*---[15.2 Search Result Not Found / .not-found]---*/
+.not-found h2{
+	text-align:center;
+}
+.not-found h2{
+	font-weight:500;
+	font-size:23px;
+	color:#212121;
+	line-height: 25px;
+}
+.not-found span{
+	color: #616161;
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+}
+.not-found form button{
+	color:#fff;
+}
+.not-found form button:hover{
+	color:#fff;
+}
+/*---[16. Category Page / .category-item]---*/
+.category-item-content h2 a{
+	font-weight:500;
+	font-size:23px;
+	color:#212121;
+	line-height: 25px;
+}
+.category-item-date{
+	font-size:14px;
+	font-weight:500;
+	color: #b0b1b4;
+	font-size:12px;
+}
+.category-item-text{
+	font-size:14px;
+	font-weight:400;
+	line-height:20px;
+	color: #666;
+}
+.category-readmore{
+	font-size:14px;
+}
+.category-readmore:hover{
+	text-decoration:none;
+	color:#333;
+}
+/*---[17. Single Post Page / .single-wrapper]---*/
+.single-wrapper h1{
+	font-size:30px;
+	line-height: 40px;
+	color:#212121;
+	font-weight: 700;
+}
+.single-wrapper .header4{
+	font-size:30px;
+	line-height:25px;
+	color:#212121;
+}
+.post-breadcrumb{
+	font-size:12px;
+	color: #b0b1b4;
+}
+.meta-data{
+	text-transform:uppercase;
+	font-size:15px;
+}
+.meta-data a{
+	color: inherit;
+	font-weight:bold;
+}
+.meta-data a:hover{
+	color: #c8c8c8;
+	text-decoration:none;
+}
+.meta-data-date{
+	font-size:14px;
+	color: #b0b1b4;
+}
+.meta-data-share h4{
+	text-align:center;
+}
+.share{
+	line-height: 25px;
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+}
+.image-caption{
+	color: #b0b1b4;
+	text-align:center;
+	font-size:11px;
+}
+.single-wrapper p{
+	color: #555;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.related-articles h2{
+	font-size:20px;
+}		
+	.box-row .box h2{
+		font-size: 16px;
+		font-weight: 800;
+		margin:0;
+	}
+		.box-row .box h2 a{
+			color: #1d1e20;
+		}
+			.box-row .box h2 a:hover{
+				color:#ef5764;
+				text-decoration:none;
+			}
+	.box-row .box .box-meta{
+		font-size: 11px;
+		color: #7a7a7a;
+	}				
+.comment h4,.leave-reply h4,.related-articles-heading{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.comment-content p{
+font-size: 15px;
+}
+.comment-content > h3 {
+    font-size: 16px;
+	font-weight:700;
+}
+.reply a{
+	font-size:13px;
+	text-transform:uppercase;
+	color: #b0b1b4;
+}
