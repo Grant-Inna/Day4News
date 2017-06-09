@@ -17,7 +17,7 @@
 }
 @media (min-width:768px) {
 	.col-md-10 {
-		width: 70%
+		width: 80%
 		}
 	.col-md-1 {
 		width: 15%
@@ -97,6 +97,10 @@
     .top-cat, .bottom-cat{
         opacity: 1;
         left: 0;
+    }
+    .scrollup {
+      bottom: 10px;
+      right: 10px;
     }
 }
 
@@ -459,6 +463,13 @@
 	.post-meta {
 		text-align: center;
 	}
+  .post {
+    width: 100%;
+  }
+  .category-block {
+    flex-direction: column;
+    height: auto;
+  }
 }
 @media all and (max-width : 330px) {
 	nav ul li {

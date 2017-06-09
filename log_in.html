@@ -67,9 +67,20 @@
                     </div><!-- news ticker end -->
 					<div class="row">
 						<div class="error-page"><!-- error page content start -->
-								<div class="error-content">Упс! Ошибка</div>
-								<h1>404</h1>
-								<div class="error-text">Мы не нашли запрашиваемую вами страницу. <br> Возможно она была удалена, или же вы ввели неверный URL.</div>
+
+                            <div class="medium-6 columns">
+                                <h3 class="borderBottom">Введите ваш код или номер телефона:</h3>
+                                <form id="searchform" method="post" action="http://vtrendo.by/restore">
+                                    <input type="text" placeholder="Введите ваш код или номер телефона:" name="phone">
+                                    <button type="submit" class="button expanded">Отправить</button>
+                                    <h6 class="text-center">или</h6>
+                                    <input type="hidden" name="_token" value="Kd0u1ufXWGnjHaDYGh54ktyH0qOpqENvCdmHjgNG">
+                                </form>
+                                <div class="setting-form-inner">
+                                    <a class="wk__subscribe_btn button expanded success">Получить новый код</a>
+                                </div>
+                            </div>
+
 								<a href="./index.html" class="back-home"><i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;На Главную</a>
 						</div><!-- error page content end -->
 					</div>

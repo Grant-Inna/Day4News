@@ -9,6 +9,7 @@ var gulp = require('gulp'),
 gulp.task('css', function() {
     return gulp.src('./style.scss')
         .pipe(sass().on('error', sass.logError)) // Turn scss file into css
+        .pipe(notify('Turn CSS Success!'))
         .pipe(autoprefixer({browsers: ['last 5 versions', '> 5%']}))
         .pipe(gulp.dest('../css'))
         .pipe(notify('CSS Success!'));
@@ -17,9 +18,10 @@ gulp.task('css', function() {
 gulp.task('responsive.css', function() {
     return gulp.src('./responsive.scss')
         .pipe(sass().on('error', sass.logError)) // Turn scss file into css
+        .pipe(notify('Turn Responsive Success!'))
         .pipe(autoprefixer({browsers: ['last 5 versions', '> 5%']}))
         .pipe(gulp.dest('../css'))
-        .pipe(notify('CSS Success!'));
+        .pipe(notify('Responsive Success!'));
 });
 
 gulp.task('MINcss', function() {
