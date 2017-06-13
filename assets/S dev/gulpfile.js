@@ -70,3 +70,10 @@ gulp.task('unCssBoot', function () {
         }))
         .pipe(gulp.dest('../css/'));
 });
+gulp.task('unCss', function () {
+    return gulp.src('./style.scss')
+        .pipe(uncss({
+            html: ['../../*.html']
+        }))
+        .pipe(gulp.dest('./'));
+});
