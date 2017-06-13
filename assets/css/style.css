@@ -846,8 +846,12 @@ footer {
   border-top: 1px solid #3b3b3b;
   width: 100%;
   color: #c4c4c4;
-  height: 50px;
+  height: auto;
+  text-align: center;
   padding: 10px; }
+
+footer a {
+  color: #efefef; }
 
 footer .copyright {
   float: left; }
