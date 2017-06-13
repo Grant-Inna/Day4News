@@ -1575,6 +1575,14 @@ a h3 {
   .button.success {
     background-color: #3adb76;
     color: #fff; }
+  a {
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s; }
+  a:hover {
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s; }
   /* ============ GRADIENT ============ */
   .gradient {
     background-color: rgba(0, 0, 0, 0.67);

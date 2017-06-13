@@ -1540,8 +1540,12 @@ h4 {
     color: #fff;
   }
 
-
-
+  a {
+    transition: all .3s;
+  }
+  a:hover {
+    transition: all .3s;
+  }
 
 
 /* ============ GRADIENT ============ */
