@@ -4,6 +4,7 @@ var gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     cleanCSS = require('gulp-clean-css'),
     rename = require("gulp-rename"),
+    uncss = require('gulp-uncss'),
     notify = require("gulp-notify");
 
 gulp.task('css', function() {
@@ -61,4 +62,11 @@ gulp.task('comb', function() {
         .pipe(csscomb())
         .pipe(gulp.dest('./'))
         .pipe(notify('cssComb Success!'));
+});
+gulp.task('unCssBoot', function () {
+    return gulp.src('../css/bootstrap.min.css')
+        .pipe(uncss({
+            html: ['../../*.html']
+        }))
+        .pipe(gulp.dest('../css/'));
 });
