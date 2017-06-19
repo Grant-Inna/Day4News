@@ -165,16 +165,15 @@ body {
   border-bottom: 1px solid #eee; }
 
 .header .logo {
-  height: 90px;
-  min-height: 200px;
+  min-height: 130px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .header .logo h1 {
   height: auto;
