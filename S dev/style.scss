@@ -45,7 +45,7 @@ Primary use:	Magazine, News, Blog
 17. Single Post Page / .single-wrapper
 -------------------------------------------------------------------*/
 
-@import 'fonts.css';
+@import 'fonts.scss';
 @import 'typography.css';
 
 
@@ -773,6 +773,8 @@ a h3
     display: block;
 
     text-align: center !important;
+  height: 100px;
+  width: 100%;
 }
 
 
@@ -943,4 +945,12 @@ a h3
 
 img {
   vertical-align: top;
+}
+
+.logo__logo {
+  margin-top: 20px;
+  height: 50%;
+  width: auto;
+  background: url("../img/logo.svg") center no-repeat;
+  background-size: contain;
 }
