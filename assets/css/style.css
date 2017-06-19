@@ -165,7 +165,7 @@ body {
   border-bottom: 1px solid #eee; }
 
 .header .logo {
-  min-height: 130px;
+  min-height: 80px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -210,7 +210,7 @@ nav ul li > a:only-child:after {
 
 nav a {
   display: block;
-  padding: 0 10px;
+  padding: 0 15px;
   text-decoration: none; }
 
 nav a:hover {
@@ -722,10 +722,10 @@ a h3 {
 .logo__title {
   display: block;
   text-align: center !important;
-  height: 100px;
+  height: 80px;
   width: 310px;
   min-width: 200px;
-  min-height: 150px; }
+  min-height: 50px; }
 
 .columns {
   width: 100%;
@@ -852,7 +852,7 @@ img {
   vertical-align: top; }
 
 .logo__logo {
-  margin-top: 40px;
+  margin-top: 15px;
   height: 51px;
   width: 310px;
   float: right;
