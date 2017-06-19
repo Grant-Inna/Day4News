@@ -455,6 +455,9 @@ nav a:hover {
 .post img {
   width: 100%;
   height: auto;
+  -webkit-transform: translateY(-30px);
+      -ms-transform: translateY(-30px);
+          transform: translateY(-30px);
   -webkit-transition: all .4s linear;
   -o-transition: all .4s linear;
   transition: all .4s linear; }

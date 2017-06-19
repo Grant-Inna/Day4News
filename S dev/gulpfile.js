@@ -35,7 +35,7 @@ gulp.task('bootstrap.css', function() {
 });
 
 gulp.task('MINcss', function() {
-    gulp.src('../css/style.css')
+    gulp.src('../assets/css/style.css')
         .pipe(cleanCSS())
         .pipe(rename("style.min.css"))
         .pipe(gulp.dest('../assets/css'))
@@ -50,7 +50,7 @@ gulp.task('watch_scss', function() {
     gulp.watch('./log_in_form.scss', ['bootstrap.css']);
 });
 gulp.task('watch_min', function() {
-    gulp.watch('./style.scss', ['MINcss'])
+    gulp.watch('../assets/css/style.css', ['MINcss'])
 });
 
 gulp.task('default', ['css', 'responsive.css', 'bootstrap.css', 'MINcss', 'watch_scss', 'watch_min']);
