@@ -284,6 +284,16 @@
   }
 }
 
+@media all and (max-width : 640px) {
+  .header .logo {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+}
+
 @media all and (max-width : 480px) {
   .header .logo {
     justify-content: center;

@@ -85,7 +85,7 @@ body
     height: 90px;
   min-height: 200px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .header .logo h1
 {
@@ -775,7 +775,7 @@ a h3
 
     text-align: center !important;
   height: 100px;
-  width: 65%;
+  width: 310px;
   min-width: 200px;
   min-height: 150px;
 }
@@ -952,9 +952,10 @@ img {
 
 .logo__logo {
   margin-top: 40px;
-  height: 30%;
-  width: auto;
-  background: url("../img/logo.svg") 70% no-repeat, url("../img/newspaper.svg") 35% no-repeat;
+  height: 51px;
+  width: 310px;
+  float: right;
+  background: url("../img/logo.svg") 100% no-repeat, url("../img/newspaper.svg") 0 no-repeat;
   background-size: contain;
 }
 
