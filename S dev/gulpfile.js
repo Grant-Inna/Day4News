@@ -9,10 +9,10 @@ var gulp = require('gulp'),
 
 gulp.task('css', function() {
     return gulp.src('./style.scss')
-        .pipe(sass().on('error', sass.logError)) // Turn scss file into css
+        .pipe(sass()) // Turn scss file into css
         .pipe(notify('Turn CSS Success!'))
         .pipe(autoprefixer({browsers: ['last 5 versions', '> 5%']}))
-        .pipe(gulp.dest('../css'))
+        .pipe(gulp.dest('../assets/css'))
         .pipe(notify('CSS Success!'));
 });
 
@@ -21,7 +21,7 @@ gulp.task('responsive.css', function() {
         .pipe(sass().on('error', sass.logError)) // Turn scss file into css
         .pipe(notify('Turn Responsive Success!'))
         .pipe(autoprefixer({browsers: ['last 5 versions', '> 5%']}))
-        .pipe(gulp.dest('../css'))
+        .pipe(gulp.dest('../assets/css'))
         .pipe(notify('Responsive Success!'));
 });
 
@@ -30,7 +30,7 @@ gulp.task('bootstrap.css', function() {
         //.pipe(sass().on('error', sass.logError)) // Turn scss file into css
         .pipe(notify('Turn bootstrap Success!'))
         .pipe(autoprefixer({browsers: ['last 5 versions', '> 5%']}))
-        .pipe(gulp.dest('../css'))
+        .pipe(gulp.dest('../assets/css'))
         .pipe(notify('bootstrap Success!'));
 });
 
@@ -38,7 +38,7 @@ gulp.task('MINcss', function() {
     gulp.src('../css/style.css')
         .pipe(cleanCSS())
         .pipe(rename("style.min.css"))
-        .pipe(gulp.dest('../css'))
+        .pipe(gulp.dest('../assets/css'))
         .pipe(notify('MINcss Success!'));
 });
 
