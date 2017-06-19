@@ -165,10 +165,17 @@ body {
   border-bottom: 1px solid #eee; }
 
 .header .logo {
-  height: 90px; }
+  height: 90px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
 
 .header .logo h1 {
-  line-height: 90px;
+  height: auto;
   margin: 0; }
 
 /*---[3. Navigation / nav]---*/
@@ -713,7 +720,9 @@ a h3 {
   display: block;
   text-align: center !important;
   height: 100px;
-  width: 100%; }
+  width: 65%;
+  min-width: 200px;
+  min-height: 150px; }
 
 .columns {
   width: 100%;
@@ -840,8 +849,153 @@ img {
   vertical-align: top; }
 
 .logo__logo {
-  margin-top: 20px;
-  height: 50%;
+  margin-top: 40px;
+  height: 30%;
   width: auto;
   background: url("../img/logo.svg") center no-repeat;
   background-size: contain; }
+
+.logo__social {
+  width: 20%;
+  min-width: 200px; }
+
+.social-network {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.social-network::before,
+.social-network::after {
+  display: table;
+  content: " "; }
+
+.social-network .social-item {
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding: 10px 0;
+  display: block; }
+
+.social-network .social-item a .social-icon {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  line-height: 35px;
+  vertical-align: middle;
+  margin: 0 0 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px; }
+
+.social-network .social-item a .social-count {
+  display: block;
+  color: #818181; }
+
+.social-network .social-item a .social-title {
+  display: block;
+  line-height: 16px;
+  color: #818181; }
+
+[class^="dt-"]::before,
+[class*=" dt-"]::before {
+  text-transform: none !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  font-weight: normal !important;
+  font-family: FontAwesome; }
+
+.dt-twitter-icon {
+  background-color: #59c8ff; }
+
+.dt-twitter-icon:hover {
+  background-color: #79d2ff; }
+
+.dt-twitter-icon::before {
+  content: "\f099"; }
+
+.dt-facebook-icon {
+  background-color: #4a639f; }
+
+.dt-facebook-icon:hover {
+  background-color: #5979c4; }
+
+.dt-facebook-icon::before {
+  content: "\f09a"; }
+
+.dt-google-icon {
+  background-color: #D73D32; }
+
+.dt-google-icon:hover {
+  background-color: #ec483c; }
+
+.dt-google-icon::before {
+  content: "\f0d5"; }
+
+.dt-instagram-icon {
+  background-color: #517FA4; }
+
+.dt-instagram-icon:hover {
+  background-color: #6098c5; }
+
+.dt-instagram-icon::before {
+  content: "\f16d"; }
+
+.dt-pinterest-icon {
+  background-color: #cb2027; }
+
+.dt-pinterest-icon:hover {
+  background-color: #e4262e; }
+
+.dt-pinterest-icon::before {
+  content: "\f0d2"; }
+
+.dt-linkedin-icon {
+  background-color: #0077b5; }
+
+.dt-linkedin-icon:hover {
+  background-color: #0694de; }
+
+.dt-linkedin-icon::before {
+  content: "\f0e1"; }
+
+.dt-reddit-icon {
+  background-color: #f33000; }
+
+.dt-reddit-icon:hover {
+  background-color: #ff4213; }
+
+.dt-reddit-icon::before {
+  content: "\f281"; }
+
+.dt-vimeo-icon {
+  background-color: #46a3e9; }
+
+.dt-vimeo-icon:hover {
+  background-color: #4db1fc; }
+
+.dt-vimeo-icon::before {
+  content: "\f27d"; }
+
+.dt-tumblr-icon {
+  background-color: #36465d; }
+
+.dt-tumblr-icon:hover {
+  background-color: #526887; }
+
+.dt-tumblr-icon::before {
+  content: "\f173"; }
+
+.dt-youtube-icon {
+  background-color: #5d5d5d; }
+
+.dt-youtube-icon:hover {
+  background-color: #858484; }
+
+.dt-youtube-icon::before {
+  content: "\f167"; }
+
+.fa-vk {
+  background-color: #507299; }
+
+.dt-linkedin-icon:hover {
+  background-color: #0694de; }

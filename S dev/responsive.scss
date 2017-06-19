@@ -285,6 +285,9 @@
 }
 
 @media all and (max-width : 480px) {
+  .header .logo {
+    justify-content: center;
+  }
 	.logo{
 		height:auto !important;
 		float:none !important;
