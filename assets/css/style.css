@@ -145,6 +145,16 @@ Primary use:	Magazine, News, Blog
 body {
   background: #fff url(../img/bg.jpg); }
 
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  position: relative;
+  margin-top: 2px;
+  border-top: 3px solid #ef5764;
+  background: #fff;
+  -webkit-box-shadow: 0 0 3px #cacaca;
+  box-shadow: 0 0 3px #cacaca; }
+
 .main-wrapper {
   position: relative;
   margin: 0 auto;
@@ -180,7 +190,7 @@ body {
   margin: 0; }
 
 /*---[3. Navigation / nav]---*/
-nav {
+#menu {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -188,32 +198,32 @@ nav {
   border-bottom: 1px solid #f7f7f7;
   background-color: #fff; }
 
-nav:after {
+#menu:after {
   display: table;
   clear: both;
   content: ''; }
 
-nav ul {
+#menu ul {
   position: relative;
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center; }
 
-nav ul li {
+#menu ul li {
   z-index: 99;
   display: inline-block;
   background-color: #fff; }
 
-nav ul li > a:only-child:after {
+#menu ul li > a:only-child:after {
   content: ''; }
 
-nav a {
+#menu a {
   display: block;
   padding: 0 15px;
   text-decoration: none; }
 
-nav a:hover {
+#menu a:hover {
   text-decoration: none; }
 
 .toggle,

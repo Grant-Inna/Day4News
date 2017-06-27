@@ -80,6 +80,8 @@
 @media all and (max-width: 768px) {
   .navigation {
     padding: 5px 1em; }
+  .wrapper {
+    width: 90%; }
   nav {
     margin: 0;
     background-color: #262626;
@@ -224,9 +226,15 @@
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
-            align-items: center; } }
+            align-items: center; }
+  .wrapper {
+    width: 95%; } }
 
 @media all and (max-width: 480px) {
+  .container-fluid {
+    padding: 0; }
+  .wrapper {
+    width: 100%; }
   .header .logo {
     -webkit-box-pack: center;
     -webkit-justify-content: center;

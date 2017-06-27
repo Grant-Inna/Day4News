@@ -26,9 +26,7 @@ gulp.task('responsive.css', function() {
 });
 
 gulp.task('bootstrap.css', function() {
-    return gulp.src('./bootstrap.min.scss')
-        //.pipe(sass().on('error', sass.logError)) // Turn scss file into css
-        .pipe(notify('Turn bootstrap Success!'))
+    return gulp.src('../assets/css/bootstrap.min.css')
         .pipe(autoprefixer({browsers: ['last 5 versions', '> 5%']}))
         .pipe(gulp.dest('../assets/css'))
         .pipe(notify('bootstrap Success!'));
@@ -46,7 +44,7 @@ gulp.task('watch_scss', function() {
     gulp.watch('./style.scss', ['css']);
     gulp.watch('./_variables.scss', ['css']);
     gulp.watch('./responsive.scss', ['responsive.css']);
-    gulp.watch('./bootstrap.min.scss', ['bootstrap.css']);
+    gulp.watch('../assets/css/bootstrap.min.css', ['bootstrap.css']);
     gulp.watch('./log_in_form.scss', ['bootstrap.css']);
 });
 gulp.task('watch_min', function() {

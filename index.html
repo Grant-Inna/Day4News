@@ -14,11 +14,10 @@
 </head>
 <body>
 <div class="container-fluid"><!-- container start-->
-    <div class="row">
-        <div class="col-md-1">
-        </div>
-        <div class="col-md-10 main-wrapper"><!-- wrapper main content -->
-            <div class="row"><!-- logo and top banner ads -->
+    <div class="wrapper"><!-- wrapper main content -->
+
+
+            <header id="header" class="row"><!-- logo and top banner ads -->
                 <div class="col-md-12">
                     <div class="row">
                         <div class="header">
@@ -32,10 +31,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- end logo and top banner ads -->
-            <div class="row navigation"><!-- navigation menu start -->
-                <nav id="menu">
+            </header>
+
+            <nav id="navigation" class="navigation"><!-- navigation menu start -->
+                <div id="menu">
                     <label for="drop" class="toggle"><i class="fa fa-bars" aria-hidden="true"></i> МЕНЮ</label>
                     <input type="checkbox" id="drop"/>
                     <ul class="menu">
@@ -49,10 +48,10 @@
                                                                           aria-hidden="true"></i></a></li>
 
                     </ul>
-                </nav>
-            </div>
-            <!-- navigation menu end -->
-            <div class="row"><!-- news ticker start -->
+                </div>
+            </nav>
+
+            <aside id="aside" class="row"><!-- news ticker start -->
                 <div class="col-md-12 news-ticker">
                     <div class="news">
                         <div class="mobile-ticker"><i class="fa fa-bullhorn"></i></div>
@@ -65,1052 +64,901 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            <!-- news ticker end -->
-            <div class="row top-row"><!-- top line headline start -->
-                <div class="col-md-6 top-row-content">
-                    <div class="image-frame zoom">
-                        <div class="top-cat">Путешествия</div>
-                        <a href="./single-post.html">
-                            <img alt="demo" src="https://avatars.mds.yandex.net/get-ynews/68253/8c3493961d8edcb70a9e9c6887ac4079/380x214">
+            </aside>
 
-                        </a><div class="top-content gradient"><a href="./single-post.html">
-                    </a><a href="./single-post.html"><h3>АТОР: из-за сбоев рейсов «ВИМ-авиа» пострадали 10 000
-                        человек</h3></a>
+            <main id="main">
 
-                        <div class="top-meta">
-                            <a class="author-date" href="/">Dec, 29 2016</a>
-                        </div>
-                    </div>
+                <section id="topSection" class="row top-row"><!-- top line headline start -->
+                    <article class="col-md-6 top-row-content">
+                        <div class="image-frame zoom">
+                            <div class="top-cat">Путешествия</div>
+                            <a href="./single-post.html">
+                                <img alt="demo" src="https://avatars.mds.yandex.net/get-ynews/68253/8c3493961d8edcb70a9e9c6887ac4079/380x214">
 
-                    </div>
-                </div>
+                            </a><div class="top-content gradient"><a href="./single-post.html">
+                        </a><a href="./single-post.html"><h3>АТОР: из-за сбоев рейсов «ВИМ-авиа» пострадали 10 000
+                            человек</h3></a>
 
-                <div class="col-md-6 top-row-content">
-                    <div class="image-frame zoom">
-                        <div class="top-cat">Шоу–бизнес</div>
-                        <a href="./single-post.html">
-                            <img alt="demo" src="https://avatars.mds.yandex.net/get-ynews/49542/b90becd60de220e5adfc951c91dceb4d/395x222">
-
-                        </a><div class="top-content gradient"><a href="./single-post.html">
-                    </a><a href="./single-post.html">
-                        <h3>
-                            Эпатажный Алексей Панин рассказал, кто ему портит репутацию
-                        </h3></a>
-
-                        <div class="top-meta">
-                            <a class="author-date" href="/">Dec, 20 2016</a>
-                        </div>
-                    </div>
-
-                    </div>
-                </div>
-                <!-- bottom line headline start -->
-                <div class="col-md-6 top-row-content">
-                    <div class="image-frame zoom">
-                        <div class="bottom-cat">Здоровье</div>
-                        <a href="./single-post.html">
-                            <img alt="demo" src="https://avatars.mds.yandex.net/get-ynews/114574/c92a35af1d71a8308076fc3a28dc6b6f/380x214">
-
-                        </a><div class="bottom-content gradient"><a href="./single-post.html">
-                    </a><a href="./single-post.html"><h3>В столице Башкирии открылся первый Банк донорского
-                        молока</h3></a>
-
-                        <div class="bottom-meta">
-                            <a class="author-date" href="/">Dec, 21 2016</a>
-                        </div>
-                    </div>
-
-                    </div>
-                </div>
-                <div class="col-md-6 top-row-content">
-                    <div class="image-frame zoom">
-                        <div class="bottom-cat">Транспорт</div>
-                        <a href="./single-post.html">
-                            <img alt="demo" src="https://avatars.mds.yandex.net/get-ynews/29301/8ca26d3a9ca7cf06848f0ce992b73348/395x222">
-
-                        </a><div class="bottom-content gradient"><a href="./single-post.html">
-                    </a><a href="./single-post.html"><h3>На Колыме ввели режим ЧС из-за разрушенной дороги в
-                        магаданский порт</h3></a>
-
-                        <div class="bottom-meta">
-                            <a class="author-date" href="/">Dec, 19 2016</a>
-                        </div>
-                    </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-8 article-wrapper"><!-- article wrapper start -->
-                    <div class="tag"><h2 id="news_main">ГЛАВНОЕ</h2>
-
-                        <div class="stripe"></div>
-                    </div>
-                    <div class="category-block"><!-- Category Block Row 1 start -->
-                        <div class="col-md-6 post"><!-- content 1 start -->
-                            <div class="image-frame zoom post-thumb">
-                                <a href="./single-post.html"><img alt="demo"
-                                                                  src="https://avatars.mds.yandex.net/get-ynews/114574/6ab46af942935bbfd2938e4122ff2dfa/395x222"></a>
-                            </div>
-                            <h2><a href="./single-post.html">Easy to Find Affordable Travel For Your Family</a></h2>
-
-                            <div class="date"><i class="fa fa-clock-o"></i> Aug 22, 2016</div>
-                            <p><a href="./single-post.html" class="link__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a></p>
-
-                        </div>
-                        <!-- content 1 end -->
-                        <div class="col-md-6 post"><!-- content 2 start -->
-
-                            <div class="image-frame zoom post-thumb">
-                                <a href="./single-post.html"><img alt="demo"
-                                                                  src="http://www.college-edu.ru/upload/iblock/b05/b051fbdac138e14d126b058b20ac3769.jpg"></a>
-
-                            </div>
-                            <h2><a href="./single-post.html">I Am Beautiful No Matter What They Say</a></h2>
-
-                            <div class="date"><i class="fa fa-clock-o"></i> July 17, 2016</div>
-                            <p><a href="./single-post.html" class="link__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a></p>
-
-                        </div>
-                        <!-- content 2 end -->
-                        <div class="clearfix"></div>
-                    </div>
-                    <!-- Category Block Row 1 end -->
-
-                    <div class="category-block"><!-- Category Block Row 2 start -->
-                        <div class="col-md-6 post"><!-- content 3 start -->
-
-                            <div class="image-frame zoom post-thumb">
-                                <a href="./single-post.html"><img alt="demo" src="assets/img/holder1.png"></a>
-                            </div>
-                            <h2><a href="./single-post.html">What Do You Mean By Technology?</a></h2>
-
-                            <div class="date"><i class="fa fa-clock-o"></i> Aug 22, 2016</div>
-                            <p><a href="./single-post.html" class="link__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a></p>
-
-                        </div>
-                        <!-- content 3 end -->
-                        <div class="col-md-6 post"><!-- content 4 start -->
-
-                            <div class="image-frame zoom post-thumb">
-                                <a href="./single-post.html"><img alt="demo" src="assets/img/holder1.png"></a>
-                            </div>
-                            <h2><a href="./single-post.html">Moto-GP Season 6 Live Overview From Expert</a></h2>
-
-                            <div class="date"><i class="fa fa-clock-o"></i> July 17, 2016</div>
-                            <p><a href="./single-post.html" class="link__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a></p>
-
-                        </div>
-                        <!-- content 4 end -->
-                        <div class="clearfix"></div>
-                    </div>
-                    <!-- Category Block Row 2 end -->
-
-                    <div class="category-block"><!-- Category Block Row 3 start -->
-                        <div class="col-md-6 post"><!-- content 5 start -->
-
-                            <div class="image-frame zoom post-thumb">
-                                <a href="./single-post.html"><img alt="demo" src="assets/img/holder1.png"></a>
-                            </div>
-                            <h2><a href="./single-post.html">New XYZ CEO Plan To Fight Global Crisis</a></h2>
-
-                            <div class="date"><i class="fa fa-clock-o"></i> Aug 22, 2016</div>
-                            <p><a href="./single-post.html" class="link__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a></p>
-
-                        </div>
-                        <!-- content 5 end -->
-                        <div class="col-md-6 post"><!-- content 6 start -->
-
-                            <div class="image-frame zoom post-thumb">
-                                <a href="./single-post.html"><img alt="demo" src="assets/img/holder1.png"></a>
-                            </div>
-                            <h2><a href="./single-post.html">How Yoga Can Change Your Health</a></h2>
-
-                            <div class="date"><i class="fa fa-clock-o"></i> July 17, 2016</div>
-                            <p><a href="./single-post.html" class="link__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a></p>
-
-                        </div>
-                        <!-- content 6 end -->
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-<!--
-                <div class="col-md-4 sidebar" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">&lt;!&ndash;start sidebar&ndash;&gt;
-                    &lt;!&ndash;end widget social&ndash;&gt;
-                    &lt;!&ndash;widget 300x250 ads end&ndash;&gt;
-                    &lt;!&ndash;end widget recent post&ndash;&gt;
-                    <div class="theiaStickySidebar" style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none; left: 634.203px; top: 0px;"><div class="widget">&lt;!&ndash;widget social&ndash;&gt;
-                        <div class="tag">
-                            <h4>Social Network</h4>
-                            <div class="stripe"></div>
-                        </div>
-                        <ul class="social-network">
-                            <li class="social-item"> &lt;!&ndash;social twitter start&ndash;&gt;
-                                <a class="social-link" href="#">
-                                    <i class="social-icon dt-twitter-icon">
-                                    </i>
-                                    <span class="social-count">12</span>
-                                    <span class="social-title">Followers</span>
-                                </a>
-                            </li>&lt;!&ndash;social twitter end&ndash;&gt;
-
-                            <li class="social-item">&lt;!&ndash;social facebook start&ndash;&gt;
-                                <a class="social-link" href="#">
-                                    <i class="social-icon dt-facebook-icon">
-                                    </i>
-                                    <span class="social-count">1223</span>
-                                    <span class="social-title">Likes</span>
-                                </a>
-                            </li>&lt;!&ndash;social facebook end&ndash;&gt;
-
-                            <li class="social-item">&lt;!&ndash;social google+ start&ndash;&gt;
-                                <a class="social-link" href="#">
-                                    <i class="social-icon dt-google-icon">
-                                    </i>
-                                    <span class="social-count">332</span>
-                                    <span class="social-title">Followers</span>
-                                </a>
-                            </li>&lt;!&ndash;social google+ end&ndash;&gt;
-
-                            <li class="social-item">&lt;!&ndash;social instagram start&ndash;&gt;
-                                <a class="social-link" href="#">
-                                    <i class="social-icon dt-instagram-icon">
-                                    </i>
-                                    <span class="social-count">664</span>
-                                    <span class="social-title">Followers</span>
-                                </a>
-                            </li>&lt;!&ndash;social instagram end&ndash;&gt;
-
-                            <li class="social-item">&lt;!&ndash;social pinterest start&ndash;&gt;
-                                <a class="social-link" href="#">
-                                    <i class="social-icon dt-pinterest-icon">
-                                    </i>
-                                    <span class="social-count">42</span>
-                                    <span class="social-title">Followers</span>
-                                </a>
-                            </li>&lt;!&ndash;social pinterest end&ndash;&gt;
-
-                            <li class="social-item">&lt;!&ndash;social linkedin start&ndash;&gt;
-                                <a class="social-link" href="#">
-                                    <i class="social-icon dt-linkedin-icon">
-                                    </i>
-                                    <span class="social-count">73</span>
-                                    <span class="social-title">Followers</span>
-                                </a>
-                            </li>&lt;!&ndash;social linkedin end&ndash;&gt;
-
-                            <li class="social-item">&lt;!&ndash;social tumblr start&ndash;&gt;
-                                <a class="social-link" href="#">
-                                    <i class="social-icon dt-tumblr-icon">
-                                    </i>
-                                    <span class="social-count">63</span>
-                                    <span class="social-title">Followers</span>
-                                </a>
-                            </li>&lt;!&ndash;social tumblr end&ndash;&gt;
-
-                            <li class="social-item">&lt;!&ndash;social reddit start&ndash;&gt;
-                                <a class="social-link" href="#">
-                                    <i class="social-icon dt-reddit-icon">
-                                    </i>
-                                    <span class="social-count">223</span>
-                                    <span class="social-title">Followers</span>
-                                </a>
-                            </li>&lt;!&ndash;social reddit end&ndash;&gt;
-                            <li class="clearfix"></li>
-                        </ul>
-                        <div class="clearfix"></div>
-                    </div><div class="widget">&lt;!&ndash;widget 300x250 ads start&ndash;&gt;
-                        <div class="tag">
-                            <h4>Adsvertisement</h4>
-                            <div class="stripe"></div>
-                        </div>
-                        <div class="ads300">
-                            <a href="#"><img alt="demo" src="assets/img/300x250.jpg"></a>
-                        </div>
-                    </div><div class="widget">&lt;!&ndash;widget recent post&ndash;&gt;
-                        <div class="tag">
-                            <h4>Recent Posts</h4>
-                            <div class="stripe"></div>
-                        </div>
-                        <div class="recent-post-item">
-                            <div class="recent-post-thumb">
-                                <img alt="demo" src="assets/img/thumbside1.jpg">
-                                <span class="category"><a href="category.html">Food</a></span>
-                            </div>
-                            <div class="recent-post-content">
-                                <h3><a href="single-post.html">Delicious Recipes By Mr. Han</a></h3>
-                                <p class="date-sidebar"><i class="fa fa-clock-o"></i> Dec 22, 2016 <i class="fa fa-comment" aria-hidden="true"></i> 5 comments</p>
+                            <div class="top-meta">
+                                <a class="author-date" href="/">Dec, 29 2016</a>
                             </div>
                         </div>
-                        <div class="recent-post-item">
-                            <div class="recent-post-thumb">
-                                <img alt="demo" src="assets/img/thumbside2.jpg">
-                                <span class="category"><a href="category.html">Love</a></span>
-                            </div>
-                            <div class="recent-post-content">
-                                <h3><a href="single-post.html">How To Be A Perfect Couple</a></h3>
-                                <p class="date-sidebar"><i class="fa fa-clock-o"></i> Sep 1, 2016 <i class="fa fa-comment" aria-hidden="true"></i> 5 comments</p>
-                            </div>
-                        </div>
-                        <div class="recent-post-item">
-                            <div class="recent-post-thumb">
-                                <img alt="demo" src="assets/img/thumbside3.jpg">
-                                <span class="category"><a href="category.html">Travel</a></span>
-                            </div>
-                            <div class="recent-post-content">
-                                <h3><a href="single-post.html">4 Travelling Tips From An Expert</a></h3>
-                                <p class="date-sidebar"><i class="fa fa-clock-o"></i> Aug 29, 2016 <i class="fa fa-comment" aria-hidden="true"></i> 5 comments</p>
-                            </div>
-                        </div>
-                        <div class="recent-post-item">
-                            <div class="recent-post-thumb">
-                                <img alt="demo" src="assets/img/thumbside4.jpg">
-                                <span class="category"><a href="category.html">Woman</a></span>
-                            </div>
-                            <div class="recent-post-content">
-                                <h3><a href="single-post.html">8 Flawless MakeUp Tips</a></h3>
-                                <p class="date-sidebar"><i class="fa fa-clock-o"></i> Aug 25, 2016 <i class="fa fa-comment" aria-hidden="true"></i> 5 comments</p>
-                            </div>
-                        </div>
-                        <div class="recent-post-item">
-                            <div class="recent-post-thumb">
-                                <img alt="demo" src="assets/img/thumbside5.jpg">
-                                <span class="category"><a href="category.html">People</a></span>
-                            </div>
-                            <div class="recent-post-content">
-                                <h3><a href="single-post.html">Sarah Clarkson Biography</a></h3>
-                                <p class="date-sidebar"><i class="fa fa-clock-o"></i> Aug 14, 2016 <i class="fa fa-comment" aria-hidden="true"></i> 5 comments</p>
-                            </div>
-                        </div>
-                    </div></div></div>
--->
-            </div>
 
+                        </div>
+                    </article>
 
-            <div class="row">
-                <div class="col-md-12 article-wrapper"><!-- article wrapper start -->
+                    <article class="col-md-6 top-row-content">
+                        <div class="image-frame zoom">
+                            <div class="top-cat">Шоу–бизнес</div>
+                            <a href="./single-post.html">
+                                <img alt="demo" src="https://avatars.mds.yandex.net/get-ynews/49542/b90becd60de220e5adfc951c91dceb4d/395x222">
 
-                    <div id="news_world" class="col-md-12 blog-style"><!-- blog content start -->
-                        <div class="tag"><h2>В Мире</h2>
+                            </a><div class="top-content gradient"><a href="./single-post.html">
+                        </a><a href="./single-post.html">
+                            <h3>
+                                Эпатажный Алексей Панин рассказал, кто ему портит репутацию
+                            </h3></a>
+
+                            <div class="top-meta">
+                                <a class="author-date" href="/">Dec, 20 2016</a>
+                            </div>
+                        </div>
+
+                        </div>
+                    </article>
+                    <!-- bottom line headline start -->
+                    <article class="col-md-6 top-row-content">
+                        <div class="image-frame zoom">
+                            <div class="bottom-cat">Здоровье</div>
+                            <a href="./single-post.html">
+                                <img alt="demo" src="https://avatars.mds.yandex.net/get-ynews/114574/c92a35af1d71a8308076fc3a28dc6b6f/380x214">
+
+                            </a><div class="bottom-content gradient"><a href="./single-post.html">
+                        </a><a href="./single-post.html"><h3>В столице Башкирии открылся первый Банк донорского
+                            молока</h3></a>
+
+                            <div class="bottom-meta">
+                                <a class="author-date" href="/">Dec, 21 2016</a>
+                            </div>
+                        </div>
+
+                        </div>
+                    </article>
+                    <article class="col-md-6 top-row-content">
+                        <div class="image-frame zoom">
+                            <div class="bottom-cat">Транспорт</div>
+                            <a href="./single-post.html">
+                                <img alt="demo" src="https://avatars.mds.yandex.net/get-ynews/29301/8ca26d3a9ca7cf06848f0ce992b73348/395x222">
+
+                            </a><div class="bottom-content gradient"><a href="./single-post.html">
+                        </a><a href="./single-post.html"><h3>На Колыме ввели режим ЧС из-за разрушенной дороги в
+                            магаданский порт</h3></a>
+
+                            <div class="bottom-meta">
+                                <a class="author-date" href="/">Dec, 19 2016</a>
+                            </div>
+                        </div>
+
+                        </div>
+                    </article>
+                </section>
+
+                <section id="mainSection" class="row">
+                    <div class="col-md-8 article-wrapper"><!-- article wrapper start -->
+                        <div class="tag"><h2 id="news_main">ГЛАВНОЕ</h2>
 
                             <div class="stripe"></div>
                         </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
-                                        </div>
-                                    </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
+                        <div class="category-block"><!-- Category Block Row 1 start -->
+                            <article class="col-md-6 post"><!-- content 1 start -->
+                                <div class="image-frame zoom post-thumb">
+                                    <a href="./single-post.html"><img alt="demo"
+                                                                      src="https://avatars.mds.yandex.net/get-ynews/114574/6ab46af942935bbfd2938e4122ff2dfa/395x222"></a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <h2><a href="./single-post.html">Easy to Find Affordable Travel For Your Family</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
+                                <div class="date"><i class="fa fa-clock-o"></i> Aug 22, 2016</div>
+                                <p><a href="./single-post.html" class="link__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore
+                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a></p>
+
+                            </article>
+                            <!-- content 1 end -->
+                            <article class="col-md-6 post"><!-- content 2 start -->
+
+                                <div class="image-frame zoom post-thumb">
+                                    <a href="./single-post.html"><img alt="demo"
+                                                                      src="http://www.college-edu.ru/upload/iblock/b05/b051fbdac138e14d126b058b20ac3769.jpg"></a>
+
+                                </div>
+                                <h2><a href="./single-post.html">I Am Beautiful No Matter What They Say</a></h2>
+
+                                <div class="date"><i class="fa fa-clock-o"></i> July 17, 2016</div>
+                                <p><a href="./single-post.html" class="link__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore
+                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a></p>
+
+                            </article>
+                            <!-- content 2 end -->
                             <div class="clearfix"></div>
                         </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
-                                        </div>
-                                    </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                        <!-- Category Block Row 1 end -->
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
+                        <div class="category-block"><!-- Category Block Row 2 start -->
+                            <article class="col-md-6 post"><!-- content 3 start -->
+
+                                <div class="image-frame zoom post-thumb">
+                                    <a href="./single-post.html"><img alt="demo" src="assets/img/holder1.png"></a>
+                                </div>
+                                <h2><a href="./single-post.html">What Do You Mean By Technology?</a></h2>
+
+                                <div class="date"><i class="fa fa-clock-o"></i> Aug 22, 2016</div>
+                                <p><a href="./single-post.html" class="link__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore
+                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a></p>
+
+                            </article>
+                            <!-- content 3 end -->
+                            <article class="col-md-6 post"><!-- content 4 start -->
+
+                                <div class="image-frame zoom post-thumb">
+                                    <a href="./single-post.html"><img alt="demo" src="assets/img/holder1.png"></a>
+                                </div>
+                                <h2><a href="./single-post.html">Moto-GP Season 6 Live Overview From Expert</a></h2>
+
+                                <div class="date"><i class="fa fa-clock-o"></i> July 17, 2016</div>
+                                <p><a href="./single-post.html" class="link__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore
+                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a></p>
+
+                            </article>
+                            <!-- content 4 end -->
                             <div class="clearfix"></div>
                         </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
-                                        </div>
-                                    </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                        <!-- Category Block Row 2 end -->
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
-                                        </div>
-                                    </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                        <div class="category-block"><!-- Category Block Row 3 start -->
+                            <article class="col-md-6 post"><!-- content 5 start -->
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
-                                        </div>
-                                    </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
+                                <div class="image-frame zoom post-thumb">
+                                    <a href="./single-post.html"><img alt="demo" src="assets/img/holder1.png"></a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <h2><a href="./single-post.html">New XYZ CEO Plan To Fight Global Crisis</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
+                                <div class="date"><i class="fa fa-clock-o"></i> Aug 22, 2016</div>
+                                <p><a href="./single-post.html" class="link__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore
+                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a></p>
+
+                            </article>
+                            <!-- content 5 end -->
+                            <article class="col-md-6 post"><!-- content 6 start -->
+
+                                <div class="image-frame zoom post-thumb">
+                                    <a href="./single-post.html"><img alt="demo" src="assets/img/holder1.png"></a>
+                                </div>
+                                <h2><a href="./single-post.html">How Yoga Can Change Your Health</a></h2>
+
+                                <div class="date"><i class="fa fa-clock-o"></i> July 17, 2016</div>
+                                <p><a href="./single-post.html" class="link__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore
+                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a></p>
+
+                            </article>
+                            <!-- content 6 end -->
                         </div>
                     </div>
-                    <!-- blog content end -->
-                </div>
-                <!-- article wrapper end -->
+                </section>
 
-                <div id="news_polotics" class="col-md-12 article-wrapper"><!-- article wrapper start -->
+                <section id="bigSection" class="row">
+                    <section id="news_world" class="col-md-12 article-wrapper"><!-- article wrapper start -->
 
-                    <div class="col-md-12 blog-style"><!-- blog content start -->
-                        <div class="tag"><h2>Политика</h2>
+                        <div class="col-md-12 blog-style"><!-- blog content start -->
+                            <div class="tag"><h2>В Мире</h2>
 
-                            <div class="stripe"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                <div class="stripe"></div>
+                            </div>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
                         </div>
-                    </div>
-                    <!-- blog content end -->
-                </div>
-                <!-- article wrapper end -->
 
-                <div class="col-md-12 article-wrapper" id="news_economic"><!-- article wrapper start -->
+                    </section>
+                        <!-- blog content end -->
 
-                    <div class="col-md-12 blog-style"><!-- blog content start -->
-                        <div class="tag"><h2>Экономика</h2>
+                    <!-- article wrapper end -->
 
-                            <div class="stripe"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                    <section id="news_polotics" class="col-md-12 article-wrapper"><!-- article wrapper start -->
+
+                        <div class="col-md-12 blog-style"><!-- blog content start -->
+                            <div class="tag"><h2>Политика</h2>
+
+                                <div class="stripe"></div>
+                            </div>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
                         </div>
-                    </div>
-                    <!-- blog content end -->
-                </div>
-                <!-- article wrapper end -->
+                        <!-- blog content end -->
+                    </section>
+                    <!-- article wrapper end -->
 
-                <div id="news_incidents" class="col-md-12 article-wrapper"><!-- article wrapper start -->
+                    <section class="col-md-12 article-wrapper" id="news_economic"><!-- article wrapper start -->
 
-                    <div class="col-md-12 blog-style"><!-- blog content start -->
-                        <div class="tag"><h2>Происшествия</h2>
+                        <div class="col-md-12 blog-style"><!-- blog content start -->
+                            <div class="tag"><h2>Экономика</h2>
 
-                            <div class="stripe"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                <div class="stripe"></div>
+                            </div>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
                         </div>
-                    </div>
-                    <!-- blog content end -->
-                </div>
-                <!-- article wrapper end -->
+                        <!-- blog content end -->
+                    </section>
+                    <!-- article wrapper end -->
 
-                <div class="col-md-12 article-wrapper"><!-- article wrapper start -->
+                    <section id="news_incidents" class="col-md-12 article-wrapper"><!-- article wrapper start -->
 
-                    <div id="news_since" class="col-md-12 blog-style"><!-- blog content start -->
-                        <div class="tag"><h2>Наука и Технологии</h2>
+                        <div class="col-md-12 blog-style"><!-- blog content start -->
+                            <div class="tag"><h2>Происшествия</h2>
 
-                            <div class="stripe"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                <div class="stripe"></div>
+                            </div>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-12 entry">
-                            <div class="entry-img">
-                                <div class="image-frame zoom">
-                                    <div class="top-cat">
-                                        <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
-                                            2016
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
                                         </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
                                     </div>
-                                    <a href="./single-post.html">
-                                        <img alt="demo" src="assets/img/holder1.png">
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="entry-post">
-                                <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit</a></h2>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div>
-                            <div class="clearfix"></div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
                         </div>
-                    </div>
-                    <!-- blog content end -->
-                </div>
-                <!-- article wrapper end -->
+                        <!-- blog content end -->
+                    </section>
+                    <!-- article wrapper end -->
 
-            </div>
+                    <section class="col-md-12 article-wrapper"><!-- article wrapper start -->
 
+                        <div id="news_since" class="col-md-12 blog-style"><!-- blog content start -->
+                            <div class="tag"><h2>Наука и Технологии</h2>
 
-            <div class="row"><!--footer start-->
-                <footer>
+                                <div class="stripe"></div>
+                            </div>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
+                                        </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
+                                        </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
+                                        </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
+                                        </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                            <article class="col-md-12 entry">
+                                <div class="entry-img">
+                                    <div class="image-frame zoom">
+                                        <div class="top-cat">
+                                            <div class="entry-date" name="entry-date"><i class="fa fa-clock-o"></i> Sep 4,
+                                                2016
+                                            </div>
+                                        </div>
+                                        <a href="./single-post.html">
+                                            <img alt="demo" src="assets/img/holder1.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="entry-post">
+                                    <h2><a href="./single-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit</a></h2>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </article>
+                        </div>
+                        <!-- blog content end -->
+                    </section>
+                    <!-- article wrapper end -->
+
+                </section>
+
+            </main>
+
+            <footer id="footer" class=""><!--footer start-->
+                <div>
                     <div>   <a href="./log_in.html">Получить контент</a> </div>
                     <div>   <a href="javascript:winop(     'http://wapclick.mobi/rules/16912.html');">Правила предоставления Подписки на Контент</a> </div>
                     <div>   <a href="javascript:winop(     'http://wapclick.mobi/stop/16912.html');">Управление подпиской на контент</a> </div>
                     <div>   <a href="javascript:winop(     'http://wapclick.mobi/cost/16912.html');">Стоимость услуги</a> </div>
 
-                </footer>
-            </div>
-            <!--footer end-->
-        </div>
-        <!-- end wrapper content -->
-        <div class="col-md-1">
-        </div>
-    </div>
+                </div>
+            </footer>
+
+    </div><!-- end wrapper content -->
 </div>
 <!-- end container -->
 <a href="#" class="scrollup">Наверх</a>

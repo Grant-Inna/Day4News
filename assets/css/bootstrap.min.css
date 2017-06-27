@@ -92,7 +92,6 @@ input
 input[type=checkbox]
 {
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
             box-sizing: border-box;
     padding: 0;
 }
@@ -165,7 +164,6 @@ input[type=checkbox]
 *
 {
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
 
@@ -173,7 +171,6 @@ input[type=checkbox]
 :before
 {
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
 
@@ -325,8 +322,7 @@ blockquote p:last-child
 
 .row
 {
-    margin-right: -15px;
-    margin-left: -15px;
+  
 }
 
 .col-md-1,

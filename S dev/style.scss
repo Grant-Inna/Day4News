@@ -54,6 +54,16 @@ body
 {
     background: #fff url(../img/bg.jpg);
 }
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  position: relative;
+  margin-top: 2px;
+  border-top: 3px solid #ef5764;
+  background: #fff;
+  -webkit-box-shadow: 0 0 3px #cacaca;
+  box-shadow: 0 0 3px #cacaca;
+}
 .main-wrapper
 {
     position: relative;
@@ -93,7 +103,7 @@ body
 }
 /*---[3. Navigation / nav]---*/
 
-nav
+#menu
 {
     width: 100%;
     margin: 0;
@@ -104,14 +114,14 @@ nav
     border-bottom: 1px solid #f7f7f7;
     background-color: #fff;
 }
-nav:after
+#menu:after
 {
     display: table;
     clear: both;
 
     content: '';
 }
-nav ul
+#menu ul
 {
     position: relative;
 
@@ -122,7 +132,7 @@ nav ul
 
     text-align: center;
 }
-nav ul li
+#menu ul li
 {
     z-index: 99;
 
@@ -130,11 +140,11 @@ nav ul li
 
     background-color: #fff;
 }
-nav ul li > a:only-child:after
+#menu ul li > a:only-child:after
 {
     content: '';
 }
-nav a
+#menu a
 {
     display: block;
 
@@ -142,7 +152,7 @@ nav a
 
     text-decoration: none;
 }
-nav a:hover
+#menu a:hover
 {
     text-decoration: none;
 }
